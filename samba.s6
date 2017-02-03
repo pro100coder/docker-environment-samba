@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv sh
+
+smbd --foreground --log-stdout --configfile=${CONFIG_FILE}
